@@ -1,12 +1,12 @@
 {
-  "name": "TrumpToAlecBaldwin",
+  "name": "Trump To Baldwin",
   "version": "0.0.1",
   "manifest_version": 2,
   "description": "Converts Trump to Alec Baldwin",
   "icons": {
-    "128": icon128.png,
-    "96": icon96.png,
-    "48": icon48.png
+    "128": "logos/logo128.png",
+    "96": "logos/logo96.png",
+    "48": "logos/logo48.png"
   },
   "content_scripts": [{
     "matches": ["http://*/*", "https://*/*"],
