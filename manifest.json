@@ -1,0 +1,10 @@
+{
+  "name": "TrumpToAlecBaldwin",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Converts Trump to Alec Baldwin",
+  "content_scripts": [{
+    "matches": ["http://*/*", "https://*/*"],
+    "js": ["trump-to-alec-baldwin.js"]
+  }]
+}
